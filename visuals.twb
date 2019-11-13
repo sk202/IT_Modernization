@@ -1,0 +1,1860 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20183.19.0212.1312                               -->
+<workbook original-version='10.3' source-build='2018.3.4 (20183.19.0212.1312)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='ITC_portfolio' inline='true' name='federated.1230cv01n7jrdi19ic9tk08efuvy' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='ITC_portfolio' name='textscan.0k3zegl0cawpx51czbglw1rzhep4'>
+            <connection class='textscan' directory='C:/Users/StephenFKeller/Desktop/CART and FPDS Files/it_modernization-master/data' filename='ITC_portfolio.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0k3zegl0cawpx51czbglw1rzhep4' name='ITC_portfolio.csv' table='[ITC_portfolio#csv]' type='table'>
+          <columns character-set='windows-1252' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='ï..Agency.Code' ordinal='1' />
+            <column datatype='string' name='Agency.Name.x' ordinal='2' />
+            <column datatype='string' name='Previous.UII' ordinal='3' />
+            <column datatype='string' name='Unique.Investment.Identifier' ordinal='4' />
+            <column datatype='string' name='Shared.Services.Category' ordinal='5' />
+            <column datatype='string' name='Shared.Services.Identifier' ordinal='6' />
+            <column datatype='string' name='LOB.Title' ordinal='7' />
+            <column datatype='string' name='Mission.Support.Investment.Category' ordinal='8' />
+            <column datatype='integer' name='Bureau.Code' ordinal='9' />
+            <column datatype='string' name='Bureau.Name' ordinal='10' />
+            <column datatype='string' name='Part.Of.IT.Portfolio' ordinal='11' />
+            <column datatype='integer' name='Mission.Delivery.and.Management.Support.Area' ordinal='12' />
+            <column datatype='string' name='Type.of.Investment' ordinal='13' />
+            <column datatype='string' name='National.Security.Systems.Identifier' ordinal='14' />
+            <column datatype='string' name='IT.Infrastructure.and.Management.Type' ordinal='15' />
+            <column datatype='string' name='Line.Item.Descriptor' ordinal='16' />
+            <column datatype='string' name='Investment.Title.x' ordinal='17' />
+            <column datatype='string' name='Investment.Description' ordinal='18' />
+            <column datatype='string' name='FEA.BRM.Services...Primary.service.area' ordinal='19' />
+            <column datatype='real' name='Total.IT.Spending.FY2018..PY.....M.' ordinal='20' />
+            <column datatype='real' name='Total.IT.Spending.FY2019..CY.....M.' ordinal='21' />
+            <column datatype='real' name='Total.IT.Spending.FY2020..BY.....M.' ordinal='22' />
+            <column datatype='real' name='DME.PY.Agency.Funding....M.' ordinal='23' />
+            <column datatype='real' name='DME.PY.Contributions....M.' ordinal='24' />
+            <column datatype='real' name='DME.CY.Agency.Funding....M.' ordinal='25' />
+            <column datatype='real' name='DME.CY.Contributions....M.' ordinal='26' />
+            <column datatype='real' name='DME.BY.Agency.Funding....M.' ordinal='27' />
+            <column datatype='real' name='DME.BY.Contributions....M.' ordinal='28' />
+            <column datatype='real' name='DME.BY.Budget.Authority.Agency.Funding....M.' ordinal='29' />
+            <column datatype='real' name='O.M.PY.Agency.Funding....M.' ordinal='30' />
+            <column datatype='real' name='O.M.PY.Contributions....M.' ordinal='31' />
+            <column datatype='real' name='O.M.CY.Agency.Funding....M.' ordinal='32' />
+            <column datatype='real' name='O.M.CY.Contributions....M.' ordinal='33' />
+            <column datatype='real' name='O.M.BY.Agency.Funding....M.' ordinal='34' />
+            <column datatype='real' name='O.M.BY.Contributions....M.' ordinal='35' />
+            <column datatype='real' name='O.M.BY.Budget.Authority.Agency.Funding....M.' ordinal='36' />
+            <column datatype='integer' name='Cloud.Computing.Alternatives.Evaluation' ordinal='37' />
+            <column datatype='real' name='Total.Cloud.PaaS.IaaS.Cost.CY' ordinal='38' />
+            <column datatype='real' name='Total.Cloud.SaaS.Cost.CY' ordinal='39' />
+            <column datatype='real' name='Total.Other.Managed.Services.Cost.CY' ordinal='40' />
+            <column datatype='integer' name='Budget.Year' ordinal='41' />
+            <column datatype='string' name='Derived.Status' ordinal='42' />
+            <column datatype='date' name='Updated.Date.x' ordinal='43' />
+            <column datatype='datetime' name='Updated.Time.x' ordinal='44' />
+            <column datatype='string' name='Investment.Type' ordinal='45' />
+            <column datatype='string' name='Infrastructure.Management.Category' ordinal='46' />
+            <column datatype='string' name='Agency.Code' ordinal='47' />
+            <column datatype='string' name='Agency.Name.y' ordinal='48' />
+            <column datatype='string' name='Investment.Title.y' ordinal='49' />
+            <column datatype='string' name='PIID.Ref.PIID' ordinal='50' />
+            <column datatype='string' name='Planned.Acquisitions' ordinal='51' />
+            <column datatype='string' name='Updated.Date.y' ordinal='52' />
+            <column datatype='string' name='Updated.Time.y' ordinal='53' />
+            <column datatype='string' name='ccv' ordinal='54' />
+            <column datatype='string' name='gsa_idiq' ordinal='55' />
+            <column datatype='string' name='gwac' ordinal='56' />
+            <column datatype='string' name='mac' ordinal='57' />
+            <column datatype='string' name='networks' ordinal='58' />
+            <column datatype='string' name='pbs_idiq' ordinal='59' />
+            <column datatype='string' name='primary' ordinal='60' />
+            <column datatype='string' name='schedule' ordinal='61' />
+            <column datatype='string' name='undefined' ordinal='62' />
+            <column datatype='string' name='va_schedule' ordinal='63' />
+            <column datatype='string' name='generic_gsa' ordinal='64' />
+            <column datatype='integer' name='majorIT' ordinal='65' />
+            <column datatype='integer' name='transforming' ordinal='66' />
+            <column datatype='integer' name='data' ordinal='67' />
+            <column datatype='integer' name='system' ordinal='68' />
+            <column datatype='integer' name='provides' ordinal='69' />
+            <column datatype='integer' name='initiative' ordinal='70' />
+            <column datatype='integer' name='represents' ordinal='71' />
+            <column datatype='integer' name='participation' ordinal='72' />
+            <column datatype='integer' name='management' ordinal='73' />
+            <column datatype='integer' name='investment' ordinal='74' />
+            <column datatype='integer' name='presidential' ordinal='75' />
+            <column datatype='integer' name='will' ordinal='76' />
+            <column datatype='string' name='pred_all' ordinal='77' />
+            <column datatype='string' name='ITC' ordinal='78' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;windows-1252&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ï..Agency.Code</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ï..Agency.Code]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>ï..Agency.Code</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Agency.Name.x</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Agency.Name.x]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>Agency.Name.x</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Previous.UII</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Previous.UII]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>Previous.UII</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unique.Investment.Identifier</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Unique.Investment.Identifier]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>Unique.Investment.Identifier</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shared.Services.Category</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Shared.Services.Category]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>Shared.Services.Category</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shared.Services.Identifier</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Shared.Services.Identifier]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>Shared.Services.Identifier</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LOB.Title</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LOB.Title]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>LOB.Title</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mission.Support.Investment.Category</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Mission.Support.Investment.Category]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>Mission.Support.Investment.Category</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Bureau.Code</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Bureau.Code]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>Bureau.Code</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Bureau.Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Bureau.Name]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>Bureau.Name</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Part.Of.IT.Portfolio</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Part.Of.IT.Portfolio]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>Part.Of.IT.Portfolio</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mission.Delivery.and.Management.Support.Area</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Mission.Delivery.and.Management.Support.Area]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>Mission.Delivery.and.Management.Support.Area</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Type.of.Investment</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Type.of.Investment]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>Type.of.Investment</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>National.Security.Systems.Identifier</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[National.Security.Systems.Identifier]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>National.Security.Systems.Identifier</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IT.Infrastructure.and.Management.Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[IT.Infrastructure.and.Management.Type]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>IT.Infrastructure.and.Management.Type</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Line.Item.Descriptor</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Line.Item.Descriptor]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>Line.Item.Descriptor</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Investment.Title.x</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Investment.Title.x]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>Investment.Title.x</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Investment.Description</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Investment.Description]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>Investment.Description</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FEA.BRM.Services...Primary.service.area</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[FEA.BRM.Services...Primary.service.area]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>FEA.BRM.Services...Primary.service.area</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total.IT.Spending.FY2018..PY.....M.</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total.IT.Spending.FY2018..PY.....M.]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>Total.IT.Spending.FY2018..PY.....M.</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total.IT.Spending.FY2019..CY.....M.</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total.IT.Spending.FY2019..CY.....M.]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>Total.IT.Spending.FY2019..CY.....M.</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total.IT.Spending.FY2020..BY.....M.</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total.IT.Spending.FY2020..BY.....M.]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>Total.IT.Spending.FY2020..BY.....M.</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DME.PY.Agency.Funding....M.</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[DME.PY.Agency.Funding....M.]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>DME.PY.Agency.Funding....M.</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DME.PY.Contributions....M.</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[DME.PY.Contributions....M.]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>DME.PY.Contributions....M.</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DME.CY.Agency.Funding....M.</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[DME.CY.Agency.Funding....M.]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>DME.CY.Agency.Funding....M.</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DME.CY.Contributions....M.</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[DME.CY.Contributions....M.]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>DME.CY.Contributions....M.</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DME.BY.Agency.Funding....M.</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[DME.BY.Agency.Funding....M.]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>DME.BY.Agency.Funding....M.</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DME.BY.Contributions....M.</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[DME.BY.Contributions....M.]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>DME.BY.Contributions....M.</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DME.BY.Budget.Authority.Agency.Funding....M.</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[DME.BY.Budget.Authority.Agency.Funding....M.]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>DME.BY.Budget.Authority.Agency.Funding....M.</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>O.M.PY.Agency.Funding....M.</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[O.M.PY.Agency.Funding....M.]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>O.M.PY.Agency.Funding....M.</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>O.M.PY.Contributions....M.</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[O.M.PY.Contributions....M.]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>O.M.PY.Contributions....M.</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>O.M.CY.Agency.Funding....M.</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[O.M.CY.Agency.Funding....M.]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>O.M.CY.Agency.Funding....M.</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>O.M.CY.Contributions....M.</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[O.M.CY.Contributions....M.]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>O.M.CY.Contributions....M.</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>O.M.BY.Agency.Funding....M.</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[O.M.BY.Agency.Funding....M.]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>O.M.BY.Agency.Funding....M.</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>O.M.BY.Contributions....M.</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[O.M.BY.Contributions....M.]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>O.M.BY.Contributions....M.</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>O.M.BY.Budget.Authority.Agency.Funding....M.</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[O.M.BY.Budget.Authority.Agency.Funding....M.]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>O.M.BY.Budget.Authority.Agency.Funding....M.</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cloud.Computing.Alternatives.Evaluation</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Cloud.Computing.Alternatives.Evaluation]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>Cloud.Computing.Alternatives.Evaluation</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total.Cloud.PaaS.IaaS.Cost.CY</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total.Cloud.PaaS.IaaS.Cost.CY]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>Total.Cloud.PaaS.IaaS.Cost.CY</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total.Cloud.SaaS.Cost.CY</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total.Cloud.SaaS.Cost.CY]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>Total.Cloud.SaaS.Cost.CY</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total.Other.Managed.Services.Cost.CY</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total.Other.Managed.Services.Cost.CY]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>Total.Other.Managed.Services.Cost.CY</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Budget.Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Budget.Year]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>Budget.Year</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Derived.Status</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Derived.Status]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>Derived.Status</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Updated.Date.x</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Updated.Date.x]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>Updated.Date.x</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Updated.Time.x</remote-name>
+            <remote-type>134</remote-type>
+            <local-name>[Updated.Time.x]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>Updated.Time.x</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Hour</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Investment.Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Investment.Type]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>Investment.Type</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Infrastructure.Management.Category</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Infrastructure.Management.Category]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>Infrastructure.Management.Category</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Agency.Code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Agency.Code]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>Agency.Code</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Agency.Name.y</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Agency.Name.y]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>Agency.Name.y</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Investment.Title.y</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Investment.Title.y]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>Investment.Title.y</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PIID.Ref.PIID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[PIID.Ref.PIID]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>PIID.Ref.PIID</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Planned.Acquisitions</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Planned.Acquisitions]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>Planned.Acquisitions</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Updated.Date.y</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Updated.Date.y]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>Updated.Date.y</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Updated.Time.y</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Updated.Time.y]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>Updated.Time.y</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ccv</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ccv]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>ccv</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gsa_idiq</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[gsa_idiq]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>gsa_idiq</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gwac</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[gwac]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>gwac</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mac</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[mac]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>mac</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>networks</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[networks]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>networks</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pbs_idiq</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[pbs_idiq]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>pbs_idiq</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>primary</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[primary]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>primary</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>schedule</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[schedule]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>schedule</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>undefined</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[undefined]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>undefined</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>va_schedule</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[va_schedule]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>va_schedule</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>generic_gsa</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[generic_gsa]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>generic_gsa</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>majorIT</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[majorIT]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>majorIT</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>transforming</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[transforming]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>transforming</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>data</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[data]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>data</remote-alias>
+            <ordinal>67</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>system</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[system]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>system</remote-alias>
+            <ordinal>68</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>provides</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[provides]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>provides</remote-alias>
+            <ordinal>69</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>initiative</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[initiative]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>initiative</remote-alias>
+            <ordinal>70</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>represents</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[represents]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>represents</remote-alias>
+            <ordinal>71</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>participation</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[participation]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>participation</remote-alias>
+            <ordinal>72</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>management</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[management]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>management</remote-alias>
+            <ordinal>73</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>investment</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[investment]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>investment</remote-alias>
+            <ordinal>74</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>presidential</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[presidential]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>presidential</remote-alias>
+            <ordinal>75</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>will</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[will]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>will</remote-alias>
+            <ordinal>76</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pred_all</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[pred_all]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>pred_all</remote-alias>
+            <ordinal>77</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ITC</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ITC]</local-name>
+            <parent-name>[ITC_portfolio.csv]</parent-name>
+            <remote-alias>ITC</remote-alias>
+            <ordinal>78</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Budget.Year]' role='dimension' type='quantitative' />
+      <column datatype='integer' name='[Bureau.Code]' role='dimension' type='ordinal' />
+      <column datatype='string' name='[ITC]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;0&quot;' value='Not an ITC Contract' />
+          <alias key='&quot;1&quot;' value='ITC Contract' />
+        </aliases>
+      </column>
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column aggregation='Hour' datatype='datetime' name='[Updated.Time.x]' role='dimension' type='ordinal' />
+      <column caption='Ccv' datatype='string' name='[ccv]' role='dimension' type='nominal' />
+      <column caption='Data' datatype='integer' name='[data]' role='measure' type='quantitative' />
+      <column caption='Generic Gsa' datatype='string' name='[generic_gsa]' role='dimension' type='nominal' />
+      <column caption='Gsa Idiq' datatype='string' name='[gsa_idiq]' role='dimension' type='nominal' />
+      <column caption='Gwac' datatype='string' name='[gwac]' role='dimension' type='nominal' />
+      <column caption='Initiative' datatype='integer' name='[initiative]' role='measure' type='quantitative' />
+      <column caption='Investment' datatype='integer' name='[investment]' role='measure' type='quantitative' />
+      <column caption='Mac' datatype='string' name='[mac]' role='dimension' type='nominal' />
+      <column caption='Major IT' datatype='integer' name='[majorIT]' role='measure' type='quantitative' />
+      <column caption='Management' datatype='integer' name='[management]' role='measure' type='quantitative' />
+      <column caption='Networks' datatype='string' name='[networks]' role='dimension' type='nominal' />
+      <column caption='Participation' datatype='integer' name='[participation]' role='measure' type='quantitative' />
+      <column caption='Pbs Idiq' datatype='string' name='[pbs_idiq]' role='dimension' type='nominal' />
+      <column caption='Pred All 1' datatype='integer' name='[pred_all 1]' role='measure' type='quantitative' />
+      <column caption='Pred All' datatype='string' name='[pred_all]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;0&quot;' value='Not Modernization' />
+          <alias key='&quot;1&quot;' value='Modernization' />
+        </aliases>
+      </column>
+      <column caption='Presidential' datatype='integer' name='[presidential]' role='measure' type='quantitative' />
+      <column caption='Primary' datatype='string' name='[primary]' role='dimension' type='nominal' />
+      <column caption='Provides' datatype='integer' name='[provides]' role='measure' type='quantitative' />
+      <column caption='Represents' datatype='integer' name='[represents]' role='measure' type='quantitative' />
+      <column caption='Schedule' datatype='string' name='[schedule]' role='dimension' type='nominal' />
+      <column caption='System' datatype='integer' name='[system]' role='measure' type='quantitative' />
+      <column caption='Transforming' datatype='integer' name='[transforming]' role='measure' type='quantitative' />
+      <column caption='Undefined' datatype='string' name='[undefined]' role='dimension' type='nominal' />
+      <column caption='Va Schedule' datatype='string' name='[va_schedule]' role='dimension' type='nominal' />
+      <column caption='Will' datatype='integer' name='[will]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[ï..Agency.Code]' role='dimension' type='ordinal' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.555725' measure-ordering='alphabetic' measure-percentage='0.444275' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='IT Modernization Summary'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ITC_portfolio' name='federated.1230cv01n7jrdi19ic9tk08efuvy' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1230cv01n7jrdi19ic9tk08efuvy'>
+            <column datatype='string' name='[ITC]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;0&quot;' value='Not an ITC Contract' />
+                <alias key='&quot;1&quot;' value='ITC Contract' />
+              </aliases>
+            </column>
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column datatype='real' name='[Total.IT.Spending.FY2018..PY.....M.]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Total.IT.Spending.FY2019..CY.....M.]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Total.IT.Spending.FY2020..BY.....M.]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Type.of.Investment]' role='dimension' type='nominal' />
+            <column-instance column='[ITC]' derivation='None' name='[none:ITC:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Type.of.Investment]' derivation='None' name='[none:Type.of.Investment:nk]' pivot='key' type='nominal' />
+            <column-instance column='[pred_all]' derivation='None' name='[none:pred_all:nk]' pivot='key' type='nominal' />
+            <column caption='Pred All' datatype='string' name='[pred_all]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;0&quot;' value='Not Modernization' />
+                <alias key='&quot;1&quot;' value='Modernization' />
+              </aliases>
+            </column>
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:vtsum:qk]' pivot='key' type='quantitative' visual-totals='Sum' />
+            <column-instance column='[Total.IT.Spending.FY2018..PY.....M.]' derivation='Sum' name='[sum:Total.IT.Spending.FY2018..PY.....M.:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Total.IT.Spending.FY2019..CY.....M.]' derivation='Sum' name='[sum:Total.IT.Spending.FY2019..CY.....M.:vtsum:qk]' pivot='key' type='quantitative' visual-totals='Sum' />
+            <column-instance column='[Total.IT.Spending.FY2020..BY.....M.]' derivation='Sum' name='[sum:Total.IT.Spending.FY2020..BY.....M.:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1230cv01n7jrdi19ic9tk08efuvy].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1230cv01n7jrdi19ic9tk08efuvy].[sum:Number of Records:vtsum:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1230cv01n7jrdi19ic9tk08efuvy].[sum:Total.IT.Spending.FY2018..PY.....M.:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1230cv01n7jrdi19ic9tk08efuvy].[sum:Total.IT.Spending.FY2019..CY.....M.:vtsum:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1230cv01n7jrdi19ic9tk08efuvy].[sum:Total.IT.Spending.FY2020..BY.....M.:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1230cv01n7jrdi19ic9tk08efuvy].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.1230cv01n7jrdi19ic9tk08efuvy].[:Measure Names]' value='225' />
+            <format attr='text-format' field='[federated.1230cv01n7jrdi19ic9tk08efuvy].[sum:Total.IT.Spending.FY2019..CY.....M.:vtsum:qk]' value='c&quot;$&quot;#,##0;(&quot;$&quot;#,##0)' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.1230cv01n7jrdi19ic9tk08efuvy].[none:Type.of.Investment:nk]' value='240' />
+            <format attr='width' field='[federated.1230cv01n7jrdi19ic9tk08efuvy].[none:ITC:nk]' value='148' />
+            <format attr='width' field='[federated.1230cv01n7jrdi19ic9tk08efuvy].[none:pred_all:nk]' value='172' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1230cv01n7jrdi19ic9tk08efuvy].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1230cv01n7jrdi19ic9tk08efuvy].[none:pred_all:nk] / ([federated.1230cv01n7jrdi19ic9tk08efuvy].[none:ITC:nk] / [federated.1230cv01n7jrdi19ic9tk08efuvy].[none:Type.of.Investment:nk]))</rows>
+        <cols>[federated.1230cv01n7jrdi19ic9tk08efuvy].[:Measure Names]</cols>
+        <subtotals>
+          <column>[federated.1230cv01n7jrdi19ic9tk08efuvy].[none:ITC:nk]</column>
+          <column>[federated.1230cv01n7jrdi19ic9tk08efuvy].[none:pred_all:nk]</column>
+        </subtotals>
+      </table>
+    </worksheet>
+    <worksheet name='Major IT Investments and ITC Involvment'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ITC_portfolio' name='federated.1230cv01n7jrdi19ic9tk08efuvy' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1230cv01n7jrdi19ic9tk08efuvy'>
+            <column datatype='string' name='[ITC]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;0&quot;' value='Not an ITC Contract' />
+                <alias key='&quot;1&quot;' value='ITC Contract' />
+              </aliases>
+            </column>
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column datatype='string' name='[Type.of.Investment]' role='dimension' type='nominal' />
+            <column-instance column='[ITC]' derivation='None' name='[none:ITC:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Type.of.Investment]' derivation='None' name='[none:Type.of.Investment:nk]' pivot='key' type='nominal' />
+            <column-instance column='[pred_all]' derivation='None' name='[none:pred_all:nk]' pivot='key' type='nominal' />
+            <column caption='Pred All' datatype='string' name='[pred_all]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;0&quot;' value='Not Modernization' />
+                <alias key='&quot;1&quot;' value='Modernization' />
+              </aliases>
+            </column>
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:vtsum:qk]' pivot='key' type='quantitative' visual-totals='Sum' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1230cv01n7jrdi19ic9tk08efuvy].[none:Type.of.Investment:nk]'>
+            <groupfilter function='member' level='[none:Type.of.Investment:nk]' member='&quot;01 - Major IT&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1230cv01n7jrdi19ic9tk08efuvy].[none:Type.of.Investment:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='70' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.1230cv01n7jrdi19ic9tk08efuvy].[none:Type.of.Investment:nk]' value='264' />
+            <format attr='width' field='[federated.1230cv01n7jrdi19ic9tk08efuvy].[none:ITC:nk]' value='148' />
+            <format attr='width' field='[federated.1230cv01n7jrdi19ic9tk08efuvy].[none:pred_all:nk]' value='172' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1230cv01n7jrdi19ic9tk08efuvy].[sum:Number of Records:vtsum:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1230cv01n7jrdi19ic9tk08efuvy].[none:Type.of.Investment:nk] / ([federated.1230cv01n7jrdi19ic9tk08efuvy].[none:ITC:nk] / [federated.1230cv01n7jrdi19ic9tk08efuvy].[none:pred_all:nk]))</rows>
+        <cols />
+        <subtotals>
+          <column>[federated.1230cv01n7jrdi19ic9tk08efuvy].[none:ITC:nk]</column>
+          <column>[federated.1230cv01n7jrdi19ic9tk08efuvy].[none:pred_all:nk]</column>
+        </subtotals>
+      </table>
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' maximized='true' name='IT Modernization Summary'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1230cv01n7jrdi19ic9tk08efuvy].[none:ITC:nk]</field>
+            <field>[federated.1230cv01n7jrdi19ic9tk08efuvy].[none:Type.of.Investment:nk]</field>
+            <field>[federated.1230cv01n7jrdi19ic9tk08efuvy].[none:pred_all:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{DD13960F-E9EB-4C54-8696-99E35D3E399E}' />
+    </window>
+    <window class='worksheet' name='Major IT Investments and ITC Involvment'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-height' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1230cv01n7jrdi19ic9tk08efuvy].[none:ITC:nk]</field>
+            <field>[federated.1230cv01n7jrdi19ic9tk08efuvy].[none:Type.of.Investment:nk]</field>
+            <field>[federated.1230cv01n7jrdi19ic9tk08efuvy].[none:pred_all:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{67C577E4-818F-4EAE-8D5F-C3808C4338DD}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='IT Modernization Summary' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Major IT Investments and ITC Involvment' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
